@@ -12,6 +12,8 @@ import Componente2 from './Lab01/Componente2'
 import Componente3 from './Lab01/Componente3'
 import Componente1 from './Lab02/Componente1'
 import Componente1IA from './Lab02/Componente1IA'
+import Login from './Lab03/login'
+import LoginIA from './Lab03/LoginIA'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -19,8 +21,10 @@ createRoot(document.getElementById('root')!).render(
     <br/>
     <Componente2/>
     <br/>
-    <Componente3/> */}
+    <Componente3/>
     <Componente1 />
-    <Componente1IA />
+    <Componente1IA /> */}
+    <Login />
+    <LoginIA />
   </StrictMode>,
 )
